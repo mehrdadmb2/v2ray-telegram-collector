@@ -1,4 +1,3 @@
-
 # V2Ray Telegram Collector 🚀🔧
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -26,6 +25,16 @@
   
 - **Open-Source & Community Driven:**  
   Contribute, modify, and improve the bot according to your needs!
+
+---
+
+## Quick Access 🔗
+
+- **View Configs File:**  
+  [configs.txt on GitHub](https://github.com/mehrdadmb2/v2ray-telegram-collector/blob/main/sub/configs.txt)
+
+- **Raw Configs Link:**  
+  [Subscribe to Raw Configs](https://raw.githubusercontent.com/mehrdadmb2/v2ray-telegram-collector/refs/heads/main/sub/configs.txt)
 
 ---
 
@@ -85,7 +94,7 @@ Before running the bot, set up your configuration:
    Create a personal access token on GitHub with the required permissions (repo access) and add the following details to `config.py`:
    - `GITHUB_TOKEN`
    - `GITHUB_REPO` (e.g., `mehrdadmb2/v2ray-telegram-collector`)
-   - `GITHUB_FILE_PATH` (e.g., `configs.txt`)
+   - `GITHUB_FILE_PATH` (e.g., `sub/configs.txt`)
 
 3. **Channels to Monitor:**  
    In `main.py`, update the list of channels you wish to monitor by their usernames, e.g., `['@channel_username1', '@channel_username2']`.
@@ -105,7 +114,10 @@ Before running the bot, set up your configuration:
    - It monitors the specified channels for messages containing the keyword (e.g., "v2ray").
    - Upon receiving a valid config message, it appends the configuration to a list (ensuring only the latest 12 are kept).
    - The list of configs is then joined and pushed to your GitHub repository automatically.
-   - Users can subscribe to the raw GitHub URL (e.g., `https://raw.githubusercontent.com/mehrdadmb2/v2ray-telegram-collector/main/configs.txt`) for up-to-date VPN settings.
+   - Users can subscribe to the raw GitHub URL for up-to-date VPN settings:
+     
+     **Raw Configs Link:**  
+     [https://raw.githubusercontent.com/mehrdadmb2/v2ray-telegram-collector/refs/heads/main/sub/configs.txt](https://raw.githubusercontent.com/mehrdadmb2/v2ray-telegram-collector/refs/heads/main/sub/configs.txt)
 
 3. **Logs:**  
    The terminal will display logs such as "Bot is running..." and "File updated on GitHub" to indicate the bot's operation.
@@ -135,7 +147,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 If you have any questions or need further assistance, feel free to reach out:
 
 - **GitHub:** [mehrdadmb2](https://github.com/mehrdadmb2)
-- **Telegram:** [@YourTelegramUsername](https://t.me/IIMehrdadII)
+- **Telegram:** [@IIMehrdadII](https://t.me/IIMehrdadII)
 
 ---
 
